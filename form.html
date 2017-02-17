@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/oksana.halus@gmail.com" method="POST">
+        <label for="client-name">Client name:</label>
+        <input type="text" name="client-name" id="client-name" required >
+        <br>
+        <label>
+            Client Email: 
+            <input type="email" name="client-email" required >
+        </label>
+        <br>
+        <label>
+            Car Number: 
+            <input type="text" name="car-number" required pattern="[A-2]{2}[\d]{4}[A-2]{2}" placeholder="AA1234BB" >
+        </label>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    
+ <form action="https://formspree.io/oksana.halus@gmail.com" method="POST">
+        <p>
+           <b>Хто такий Янукович?</b>
+        </p>
+        <p>
+            <input type="radio" name="answer" value="a1">Розумна людина<br>
+            <input type="radio" name="answer" value="a2">Не розумна людина<br>
+            <input type="radio" name="answer" value="a3">Політик<br>
+            <input type="radio" name="answer" value="a3">Курєр<br>
+            <input type="radio" name="answer" value="a3">Жодний з варіатів не підходить
+        </p>
+      <p><input type="submit"></p>
+ </form>
+    
+</body>
+</html>
